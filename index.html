@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Yapılacaklar Listesi</title>
+</head>
+<body>
+    <h1>Yapılacaklar Listesi</h1>
+
+    <div id="todo-body">
+        <form id="todo-form">
+            <input type="text" id="todo" placeholder="Bir Aktivite Girin">
+            <button type="submit" id="add-todo">Ekle</button>
+        </form>
+                
+        <div class="todo-list-body">
+            <h3>Listem</h3>
+            <div class="line"></div>
+
+            <div>
+                <ul class="todo-list">
+                <!--    <li class="todo-list-item">
+                            Deneme
+                            <a href = "#" class="todo-remove">
+                                <ion-icon name="close-outline" class="remove-icon"></ion-icon>
+                            </a>
+                        </li> -->
+                </ul> 
+                <input type="button" id="delete-todos" value="Tüm Aktiviteleri Temizleyin">
+            </div>
+        </div> 
+    </div>
+     
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+</body>
+</html>

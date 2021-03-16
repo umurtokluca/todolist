@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#todo-body {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+#todo-form {
+    padding: 1.25rem;
+    width: 30rem;
+    height: 8rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: 1.5px solid black;
+}
+
+#add-todo {
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 9px 18px;
+    margin-top: 20px;
+    color: white;
+    background-color: #0984e3;
+}
+
+#add-todo:hover {
+    background-color: #0767d4;
+    transition: 0.2s;
+}
+
+.todo-list-body {
+    padding: 1.25rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.line {
+    height: 1px;
+    background-color: #afafaf;
+    width: 100%;
+    margin: 12px auto;
+}
+
+#delete-todos {
+    display: block;
+    margin: 0 auto;
+    padding-top: 5px;
+    width: 30rem;
+    height: 34px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: #d60000;
+}
+
+#delete-todos:hover {
+    background-color: #c20000;
+    transition: 0.2s;
+}
+
+.todo-list {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.todo-list-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+}
+
+ion-icon {
+    color: #d60000;
+    font-size: 20px;
+    --ionicon-stroke-width: 50px;
+}
+
+ion-icon:hover {
+    color: #c20000;
+    transition: 0.2s;
+}
+
+.alerts {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.alert {
+    display: none;
+    font-size: 0.9rem;
+    padding-top: 7px;
+    text-align: center;
+    width: 20rem;
+    height: 34px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.green-alert {
+    background-color: #009e15 !important;
+}
+
+.red-alert  {
+    background-color: #d60000 !important;
+}
